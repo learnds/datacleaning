@@ -21,3 +21,4 @@ run_analysis.R -- this file should be run from a location with folders test and 
 
 5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+tinydata.txt - tiny data file obtained after running the run_analysis.R program on the data set
