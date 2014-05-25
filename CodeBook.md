@@ -3,7 +3,7 @@
 CodeBook.md - this is the codebook for the run_analysis.R script.
 It describes the variables, the data, and any transformations that are performed to clean up the data.
 
-#Source of Data
+###Source of Data
 
 Data was obtained from the following site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
