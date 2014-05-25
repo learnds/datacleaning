@@ -26,14 +26,15 @@ This is done by using grep R function.
 The subject column is for the people who participated in the exercise. 
 This is from subject_test.txt file and subject_train.txt file from the test and train folders.
 
-The activity column lists all the activities done while collecting the. This is from the Y_test.txt
+The activity column lists all the activities done while collecting the data. This is from the Y_test.txt
 and Y_train.txt files. 
 
 4. Next the merge function is used to lookup activity codes from activity_labels.txt file.
 
-5. The variable names are all cleaned up by eliminating "-" and "_".
+5. The variable names are all cleaned up by eliminating "-" and "_" and "()". This is done using gsub function.
 
-6. THe average of each of the colums is then calculated by activity and subject and written to a file. This is the tiny dataset.
+6. THe average of each of the colums is then calculated by activity and subject using the aggregate function.
+This is written to a file called "tinydata.txt". This is the tiny dataset.
 
 
 
